@@ -1,22 +1,38 @@
 /* TrackPage.css */
 
 .page-container {
-  background-color: #000; /* Set the background color to black */
-  color: #fff; /* Set the text color to white */
-  padding: 200 px;
+  background-image: url("/track-background.png"); /* Adjust the path based on your project structure */
+  background-size: 5299px 2829px;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  position: relative; /* Set position to relative to ensure child elements can be positioned relative to this container */
+
+  /* Gradient overlay */
+  background: linear-gradient(180deg, #646464 0%, #232323 100%),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #fff;
+
+  /* Other styles for the container */
+  color: #fff;
+  display: block;
+  align-items: center;
+  justify-content: center;
 }
 
 .track-container {
-  align-content: center;
+  padding-top: 20px;
+  margin: 20 px;
   position: relative;
+  text-align: center; /* Center text within the container */
 }
 
 .track-image {
+  margin: 20 px;
   width: 980px;
   height: auto;
   flex-shrink: 0;
-  display: block;
   margin: 0 auto; /* Center the image horizontally within the container */
+  border-radius: 10px;
 }
 
 .overlay-text {
@@ -35,25 +51,26 @@
 
 /* LunarSurfaceExploration.css */
 
-.exploration-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.reason-element-container {
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
   flex-direction: column;
   width: 615px;
   height: 188px;
   text-align: center;
   color: #fff;
+  margin-bottom: 50px;
+  margin-left: auto; /* Auto left margin for centering */
+  margin-right: auto; /* Auto right margin for centering */
 }
 
-.rocket-icon {
+.icon {
   width: 60px;
   height: 60px;
   margin-bottom: 16px; /* Add spacing between the rocket icon and text */
 }
 
 .main-text {
-  font-family: "K2D", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -62,9 +79,8 @@
 }
 
 .sub-text {
-  font-family: "K2D", sans-serif;
   font-size: 15px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: normal;
 }

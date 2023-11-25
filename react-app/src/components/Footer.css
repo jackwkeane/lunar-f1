@@ -1,0 +1,14 @@
+/* Footer.css */
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333; /* Choose a background color that suits your design */
+  color: white;
+}
+
+.logo {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px;
+}
