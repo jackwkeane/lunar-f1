@@ -1,0 +1,70 @@
+/* TrackPage.css */
+
+.page-container {
+  background-color: #000; /* Set the background color to black */
+  color: #fff; /* Set the text color to white */
+  padding: 200 px;
+}
+
+.track-container {
+  align-content: center;
+  position: relative;
+}
+
+.track-image {
+  width: 980px;
+  height: auto;
+  flex-shrink: 0;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally within the container */
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.paragraph-below-image {
+  text-align: center;
+  margin-top: 20px; /* Add spacing between image and paragraph */
+}
+
+/* LunarSurfaceExploration.css */
+
+.exploration-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 615px;
+  height: 188px;
+  text-align: center;
+  color: #fff;
+}
+
+.rocket-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 16px; /* Add spacing between the rocket icon and text */
+}
+
+.main-text {
+  font-family: "K2D", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 8px; /* Add spacing between the main text and sub-text */
+}
+
+.sub-text {
+  font-family: "K2D", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

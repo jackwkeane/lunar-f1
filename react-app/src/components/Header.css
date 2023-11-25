@@ -1,0 +1,60 @@
+/* Header.css */
+
+/*
+
+Red background
+background: var(--HD1, linear-gradient(180deg, #97231e 0%, #ca3f33 100%));
+
+Blue background
+background: var(--Hedar, linear-gradient(180deg, #215196 0%, #093473 100%));
+
+*/
+
+/* Header.css */
+
+.header-container {
+  text-align: center;
+  background: var(--HD1, linear-gradient(180deg, #97231e 0%, #ca3f33 100%));
+  padding: 10px;
+}
+
+.logo-image {
+  max-width: 3%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo-image:hover {
+  transform: scale(1.1);
+}
+
+.additional-container {
+  background: var(--Hedar, linear-gradient(180deg, #215196 0%, #093473 100%));
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list li {
+  margin: 0 15px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-list a:hover {
+  color: #f39c12;
+}
