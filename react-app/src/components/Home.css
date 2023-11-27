@@ -1,0 +1,23 @@
+.button-container {
+  padding: 25px;
+  display: flex; /* Make the container a flex container */
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+  margin: 0 auto;
+}
+
+.home-image {
+  margin: 20 px;
+  width: 980px;
+  height: auto;
+  flex-shrink: 0;
+  margin: 0 auto; /* Center the image horizontally within the container */
+  border-radius: 10px;
+}
+
+.image-container {
+  display: flex; /* Make the container a flex container */
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+  margin: 0 auto;
+}

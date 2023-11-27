@@ -1,29 +1,20 @@
 /* TrackPage.css */
 
 .page-container {
-  background-image: url("/track-background.png"); /* Adjust the path based on your project structure */
-  background-size: 5299px 2829px;
-  background-repeat: no-repeat;
-  background-position: center center;
-
-  position: relative; /* Set position to relative to ensure child elements can be positioned relative to this container */
-
-  /* Gradient overlay */
-  background: linear-gradient(180deg, #646464 0%, #232323 100%),
-    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #fff;
-
-  /* Other styles for the container */
-  color: #fff;
-  display: block;
-  align-items: center;
-  justify-content: center;
+  padding: 10px;
 }
-
 .track-container {
   padding-top: 20px;
-  margin: 20 px;
+  margin: 0 auto;
   position: relative;
   text-align: center; /* Center text within the container */
+}
+
+.paragraph-container {
+  color: white;
+  text-align: left;
+  margin: 0 auto;
+  width: 1100px;
 }
 
 .track-image {
@@ -42,16 +33,19 @@
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
+  font-family: "K2D-Bold", sans-serif;
 }
 
 .paragraph-below-image {
   text-align: center;
   margin-top: 20px; /* Add spacing between image and paragraph */
+  font-family: "K2D-Regular", sans-serif;
 }
 
 /* LunarSurfaceExploration.css */
 
 .reason-element-container {
+  padding: 25px;
   align-items: center; /* Center vertically */
   justify-content: center; /* Center horizontally */
   flex-direction: column;
@@ -76,6 +70,7 @@
   font-weight: 700;
   line-height: normal;
   margin-bottom: 8px; /* Add spacing between the main text and sub-text */
+  font-family: "K2D-Bold", sans-serif;
 }
 
 .sub-text {
@@ -83,4 +78,5 @@
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  font-family: "K2D-Regular", sans-serif;
 }

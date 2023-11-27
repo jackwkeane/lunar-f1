@@ -15,12 +15,15 @@ const TrackPage: React.FC = () => {
         <div className="overlay-text">
           <h1>Track Coming Soon</h1>
         </div>
-        <p className="paragraph-below-image">
-          We understand that many of you are eagerly awaiting the official track
-          layout for the Moon Grand Prix 2035, and we appreciate your patience.
-          As of now, the reason for the undetermined official track layout is
-          due to several significant factors that require careful consideration:
-        </p>
+        <div className="paragraph-container">
+          <p className="paragraph-below-image">
+            We understand that many of you are eagerly awaiting the official
+            track layout for the Moon Grand Prix 2035, and we appreciate your
+            patience. As of now, the reason for the undetermined official track
+            layout is due to several significant factors that require careful
+            consideration:
+          </p>
+        </div>
       </div>
 
       <div className="reason-element-container">
