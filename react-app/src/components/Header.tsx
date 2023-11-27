@@ -4,11 +4,7 @@ import React from "react";
 import "./fonts.css";
 import "./Header.css";
 
-interface HeaderProps {
-  title: string;
-}
-
-const Header: React.FC<HeaderProps> = ({ title }) => {
+const Header: React.FC = () => {
   return (
     <div>
       <div className="header-container">

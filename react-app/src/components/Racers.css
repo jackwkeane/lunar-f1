@@ -1,8 +1,49 @@
+.title-and-intro {
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  width: 800px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.main-text {
+  color: #fff;
+  text-align: center;
+  font-family: K2D;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: normal;
+  font-family: "K2D-Bold", sans-serif;
+}
+
 .sub-text {
   color: #fff;
   font-family: K2D;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
   line-height: normal;
+  font-family: "K2D-Thin", sans-serif;
+}
+
+.racers-container {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.racer {
+  width: 500px; /* Adjust the width based on your design */
+  height: auto;
+  margin: 10px;
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.racer:hover {
+  transform: scale(1.1); /* Enlarge on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Gradual drop shadow */
 }

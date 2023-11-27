@@ -1,24 +1,50 @@
-/* fonts.css */
+/* Font.css */
 
 @font-face {
-  font-family: "K2D";
-  src: local("K2D"), url("./fonts/K2D-Light.tiff") format("tiff");
-  font-weight: 300; /* Light font weight */
+  font-family: "K2D-Bold";
+  src: url("public/fonts/K2D/K2D-Bold.ttf") format("truetype");
+  font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "K2D";
-  src: local("K2D"), url("./fonts/K2D-Regular.tiff") format("tiff");
-  font-weight: 400; /* Regular font weight */
+  font-family: "K2D-ExtraBold";
+  src: url("public/fonts/K2D/K2D-ExtraBold.ttf") format("truetype");
+  font-weight: 800; /* You may need to adjust this value based on the font file */
   font-style: normal;
 }
 
 @font-face {
-  font-family: "K2D";
-  src: local("K2D"), url("./fonts/K2D-Bold.tiff") format("tiff");
-  font-weight: 700; /* Bold font weight */
+  font-family: "K2D-Light";
+  src: url("public/fonts/K2D/K2D-Light.ttf") format("truetype");
+  font-weight: 300; /* You may need to adjust this value based on the font file */
   font-style: normal;
 }
 
-/* Add more @font-face rules for other weights as needed */
+@font-face {
+  font-family: "K2D-Medium";
+  src: url("public/fonts/K2D/K2D-Medium.ttf") format("truetype");
+  font-weight: 500; /* You may need to adjust this value based on the font file */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "K2D-Regular";
+  src: url("public/fonts/K2D/K2D-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "K2D-SemiBold";
+  src: url("public/fonts/K2D/K2D-SemiBold.ttf") format("truetype");
+  font-weight: 600; /* You may need to adjust this value based on the font file */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "K2D-Thin";
+  src: url("public/fonts/K2D/K2D-Thin.ttf") format("truetype");
+  font-weight: 200; /* You may need to adjust this value based on the font file */
+  font-style: normal;
+}

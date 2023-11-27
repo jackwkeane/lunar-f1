@@ -2,12 +2,13 @@
 
 import React from "react";
 import "./Racers.css";
+import Footer from "./Footer";
 
 const Racers: React.FC = () => {
   return (
     <div className="main">
       <div className="title-and-intro">
-        <p className="main-text">Lunar Surface Exploration</p>
+        <p className="main-text">Top Lunar Racers</p>
         <p className="sub-text">
           Teams from around the globe are gearing up for this historic moment,
           investing in state-of-the-art technologies to adapt their cars to the
@@ -40,8 +41,9 @@ const Racers: React.FC = () => {
           className="racer"
         />
       </div>
+      <Footer />
     </div>
   );
 };
 
-export default Racer;
+export default Racers;

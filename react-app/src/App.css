@@ -1,0 +1,18 @@
+.mainApp {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url("/track-background.png");
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  flex-shrink: 0;
+  position: relative;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+/* Add sliding background effect */

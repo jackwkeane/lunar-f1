@@ -32,6 +32,7 @@ background: var(--Hedar, linear-gradient(180deg, #215196 0%, #093473 100%));
   background: var(--Hedar, linear-gradient(180deg, #215196 0%, #093473 100%));
   padding: 20px;
   text-align: center;
+  font-family: "K2D-Bold", sans-serif;
   color: white;
 }
 

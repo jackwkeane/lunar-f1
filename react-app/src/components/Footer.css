@@ -1,9 +1,10 @@
 /* Footer.css */
 
 .footer {
+  margin-top: 100px;
+  margin-bottom: 100px;
   text-align: center;
   padding: 20px;
-  background-color: #333; /* Choose a background color that suits your design */
   color: white;
 }
 
@@ -11,4 +12,8 @@
   width: 100px; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
   margin-bottom: 10px;
+}
+
+.footer-text {
+  font-family: "K2D-Light";
 }
