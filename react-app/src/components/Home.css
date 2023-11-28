@@ -1,9 +1,9 @@
 .button-container {
-  padding: 25px;
   display: flex; /* Make the container a flex container */
   justify-content: center;
   align-items: center; /* Center items vertically */
-  margin: 0 auto;
+  margin: 50px;
+  gap: 50px;
 }
 
 .home-image {
@@ -20,4 +20,59 @@
   justify-content: center;
   align-items: center; /* Center items vertically */
   margin: 0 auto;
+}
+
+.sponsors {
+  padding: 25px;
+  display: grid;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.sponsor-text-large {
+  color: #fff;
+  text-align: center;
+  font-family: K2D;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: normal;
+  font-family: "K2D-Bold", sans-serif;
+}
+
+.sponsor-text-normal {
+  padding: 25px;
+  color: #fff;
+  text-align: center;
+  font-family: K2D;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: normal;
+  font-family: "K2D-Bold", sans-serif;
+}
+
+.founding-partners-container {
+  display: flex; /* Make the container a flex container */
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+  margin: 0 auto;
+  height: 120px;
+  gap: 75px;
+}
+
+.heineken-image {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.presenting-partners-container {
+  display: flex; /* Make the container a flex container */
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+  margin: 0 auto;
+  gap: 50px;
+  height: 120px;
 }

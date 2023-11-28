@@ -40,9 +40,59 @@ const Home: React.FC = () => {
       </div>
 
       <div className="sponsors">
-        <div className="founding-partners-container"></div>
-
-        <div className="presenting-partners-container"></div>
+        <p className="sponsor-text-large">
+          HEINEKEN SILVER PROUDLY PRESENTS LUNAR GRAND PRIX 2035
+        </p>
+        <img
+          src="/heineken.png" // Make sure the path is correct based on your project structure
+          alt="Heineken Logo"
+          className="heineken-image"
+        />
+        <p className="sponsor-text-normal">
+          FOUNDING PARTNERS OF LUNAR GRAND PRIX 2035
+        </p>
+        <div className="founding-partners-container">
+          <img
+            src="/caesars.png" // Make sure the path is correct based on your project structure
+            alt="Caesars Logo"
+            className="founding-image"
+          />
+          <img
+            src="/hardrock.png" // Make sure the path is correct based on your project structure
+            alt="Hardrock Hotel Logo"
+            className="founding-image"
+          />
+          <img
+            src="/wynn.png" // Make sure the path is correct based on your project structure
+            alt="Wynn Logo"
+            className="founding-image"
+          />
+        </div>
+        <p className="sponsor-text-normal">
+          PRESENTING PARTNERS OF LUNAR GRAND PRIX 2035
+        </p>
+        <div className="presenting-partners-container">
+          <img
+            src="/chrome.png" // Make sure the path is correct based on your project structure
+            alt="Google Chrome Logo"
+            className="presenting-image"
+          />
+          <img
+            src="/amex.png" // Make sure the path is correct based on your project structure
+            alt="Hardrock Hotel Logo"
+            className="presenting-image"
+          />
+          <img
+            src="/hardrock.png" // Make sure the path is correct based on your project structure
+            alt="Hardrock Hotel Logo"
+            className="presenting-image"
+          />
+          <img
+            src="/redbull.png" // Make sure the path is correct based on your project structure
+            alt="Redbull Logo"
+            className="presenting-image"
+          />
+        </div>
       </div>
       <Footer />
     </div>

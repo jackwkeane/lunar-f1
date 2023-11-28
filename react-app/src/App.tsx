@@ -1,22 +1,22 @@
-import ListGroup from "./components/ListGroup";
-import Header from "./components/Header";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./components/HomePage";
 import TrackPage from "./components/TrackPage";
-import Racers from "./components/Racers";
-import Home from "./components/Home";
-import Button from "./components/Button";
-import "./App.css";
+import RacersPage from "./components/RacersPage";
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="mainApp">
-      <Header />
-      <Home />
-
-      {/* <TrackPage /> */}
-      {/* <Racers /> */}
-      {/* Other content of your app */}
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/racers" element={<RacersPage />} />
+          <Route path="/track" element={<TrackPage />} />
+          {/* Add more routes for additional pages */}
+        </Routes>
+      </Router>
     </div>
   );
-}
+};
 
 export default App;

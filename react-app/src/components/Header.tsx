@@ -15,13 +15,13 @@ const Header: React.FC = () => {
         <nav>
           <ul className="nav-list">
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#">Track</a>
+              <a href="/track">Track</a>
             </li>
             <li>
-              <a href="#">Racers</a>
+              <a href="/racers">Racers</a>
             </li>
           </ul>
         </nav>
