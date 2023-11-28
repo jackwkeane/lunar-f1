@@ -1,13 +1,16 @@
+.main {
+  margin: 10px 10px;
+}
 .button-container {
   display: flex; /* Make the container a flex container */
   justify-content: center;
   align-items: center; /* Center items vertically */
-  margin: 50px;
+  margin: 10px 10px;
   gap: 50px;
 }
 
 .home-image {
-  margin: 20 px;
+  margin: 10px 10px;
   width: 980px;
   height: auto;
   flex-shrink: 0;
@@ -75,4 +78,28 @@
   margin: 0 auto;
   gap: 50px;
   height: 120px;
+}
+
+@media only screen and (max-width: 600px) {
+  .button-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .home-image {
+    width: 100%;
+    margin: 10px;
+    border-radius: 0;
+  }
+
+  .sponsors {
+    width: 100%;
+  }
+
+  .founding-partners-container,
+  .presenting-partners-container {
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+  }
 }

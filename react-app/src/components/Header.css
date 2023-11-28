@@ -45,7 +45,7 @@ background: var(--Hedar, linear-gradient(180deg, #215196 0%, #093473 100%));
 }
 
 .nav-list li {
-  margin: 0 15px;
+  margin: 0 50px;
 }
 
 .nav-list a {
@@ -58,4 +58,10 @@ background: var(--Hedar, linear-gradient(180deg, #215196 0%, #093473 100%));
 
 .nav-list a:hover {
   color: #f39c12;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-image {
+    max-width: 10%;
+  }
 }

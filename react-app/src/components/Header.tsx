@@ -3,13 +3,15 @@
 import React from "react";
 import "./fonts.css";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 const Header: React.FC = () => {
   return (
     <div>
       <div className="header-container">
-        <img src="f1-logo-white.png" alt="F1 Logo" className="logo-image" />
-        {/* You can add more header content or navigation links here */}
+        <Link to="/">
+          <img src="f1-logo-white.png" alt="F1 Logo" className="logo-image" />
+        </Link>
       </div>
       <div className="additional-container">
         <nav>

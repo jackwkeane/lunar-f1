@@ -65,3 +65,14 @@
   background: #fff;
   font-weight: 800;
 }
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media only screen and (max-width: 800px) {
+  .view-racers-button,
+  .view-track-button {
+    margin: 10px 10px;
+    width: 250px;
+    height: 50px; /* Make the width 100% for smaller screens */
+    font-size: 20px;
+  }
+}
