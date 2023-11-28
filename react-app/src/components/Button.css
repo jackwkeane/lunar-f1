@@ -1,4 +1,7 @@
 .view-racers-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 400px;
   height: 100px;
   flex-shrink: 0;
@@ -30,6 +33,9 @@
 }
 
 .view-track-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 400px;
   height: 100px;
   flex-shrink: 0;
