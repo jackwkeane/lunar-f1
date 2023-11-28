@@ -8,8 +8,8 @@ const Racers: React.FC = () => {
   return (
     <div className="main">
       <div className="title-and-intro">
-        <p className="main-text">Top Lunar Racers</p>
-        <p className="sub-text">
+        <p className="main-text-racers">Top Lunar Racers</p>
+        <p className="sub-text-racers">
           Teams from around the globe are gearing up for this historic moment,
           investing in state-of-the-art technologies to adapt their cars to the
           lunar conditions. Tires designed to grip the dusty surface,

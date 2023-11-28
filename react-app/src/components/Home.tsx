@@ -8,20 +8,20 @@ const Home: React.FC = () => {
   return (
     <div className="main">
       <div className="title-and-intro">
-        <p className="main-text">GET READY FOR LUNAR GRAND PRIX 2035</p>
-        <p className="sub-text">
+        <p className="main-text-racers">GET READY FOR LUNAR GRAND PRIX 2035</p>
+        <p className="sub-text-racers">
           Formula 1® will electrify the lunar landscape in November of 2035, for
           an unforgettable race traversing the otherworldly terrain of the
           Moon's surface.
         </p>
-        <p className="sub-text">
+        <p className="sub-text-racers">
           The Moon Grand Prix's predicted track length of 3 miles will wind its
           way past iconic lunar landmarks and cratered landscapes as drivers
           test the limits of technology, hurtling through the vacuum of space at
           speeds of up to 250 mph. The stakes have never been higher, as
           astronauts, rovers, and space travelers watch in awe.
         </p>
-        <p className="sub-text">
+        <p className="sub-text-racers">
           The stakes have never been higher, as astronauts, rovers, and space
           travelers watch in awe.
         </p>

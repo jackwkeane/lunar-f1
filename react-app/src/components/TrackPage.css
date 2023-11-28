@@ -2,6 +2,7 @@
 
 .page-container {
   padding: 10px;
+  margin: 0 auto;
 }
 .track-container {
   padding-top: 20px;
@@ -9,16 +10,14 @@
   position: relative;
   text-align: center; /* Center text within the container */
 }
-
 .paragraph-container {
   color: white;
-  text-align: left;
-  margin: 0 auto;
-  width: 1100px;
+  text-align: center;
+  margin: 25px auto;
+  width: 980px;
 }
 
 .track-image {
-  margin: 20 px;
   width: 980px;
   height: auto;
   flex-shrink: 0;
@@ -38,19 +37,19 @@
 
 .paragraph-below-image {
   text-align: center;
-  margin-top: 20px; /* Add spacing between image and paragraph */
+  width: 980px;
+  font-size: 20px;
   font-family: "K2D-Regular", sans-serif;
 }
 
 /* LunarSurfaceExploration.css */
 
 .reason-element-container {
-  padding: 25px;
+  margin-top: 25px;
   align-items: center; /* Center vertically */
   justify-content: center; /* Center horizontally */
   flex-direction: column;
-  width: 615px;
-  height: 188px;
+  width: 980px;
   text-align: center;
   color: #fff;
   margin-bottom: 50px;
@@ -59,13 +58,17 @@
 }
 
 .icon {
-  width: 60px;
-  height: 60px;
+  width: 120px;
+  height: 120px;
   margin-bottom: 16px; /* Add spacing between the rocket icon and text */
 }
 
+.line-break {
+  height: 50px;
+}
+
 .main-text {
-  font-size: 20px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -74,7 +77,7 @@
 }
 
 .sub-text {
-  font-size: 15px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;

@@ -2,12 +2,12 @@
   justify-content: center;
   align-content: center;
   margin: 0 auto;
-  width: 800px;
+  width: 1000px;
   margin-top: 60px;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
-.main-text {
+.main-text-racers {
   color: #fff;
   text-align: center;
   font-family: K2D;
@@ -17,7 +17,7 @@
   font-family: "K2D-Bold", sans-serif;
 }
 
-.sub-text {
+.sub-text-racers {
   color: #fff;
   font-family: K2D;
   font-size: 20px;
