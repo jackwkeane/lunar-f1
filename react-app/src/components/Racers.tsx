@@ -40,6 +40,21 @@ const Racers: React.FC = () => {
           alt="Fernando Alonso"
           className="racer"
         />
+        <img
+          src="/carlos-sainz-player-card.png" // Make sure the path is correct based on your project structure
+          alt="Carlos Sainz Player Card"
+          className="racer"
+        />
+        <img
+          src="/charles-leclerc-player-card.png" // Make sure the path is correct based on your project structure
+          alt="Charles Leclerc Player Card"
+          className="racer"
+        />
+        <img
+          src="/lando-norris.png" // Make sure the path is correct based on your project structure
+          alt="Lando Norris Player Card"
+          className="racer"
+        />
       </div>
       <Footer />
     </div>
