@@ -32,14 +32,14 @@
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
-  font-family: "K2D-Bold", sans-serif;
+  font-family: "K2D", sans-serif;
 }
 
 .paragraph-below-image {
   text-align: center;
   width: 980px;
   font-size: 20px;
-  font-family: "K2D-Regular", sans-serif;
+  font-family: "K2D", sans-serif;
 }
 
 /* LunarSurfaceExploration.css */
@@ -73,7 +73,7 @@
   font-weight: 700;
   line-height: normal;
   margin-bottom: 8px; /* Add spacing between the main text and sub-text */
-  font-family: "K2D-Bold", sans-serif;
+  font-family: "K2D", sans-serif;
 }
 
 .sub-text {
@@ -81,7 +81,7 @@
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  font-family: "K2D-Regular", sans-serif;
+  font-family: "K2D", sans-serif;
   margin: 10px;
 }
 
