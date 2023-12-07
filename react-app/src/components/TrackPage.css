@@ -95,8 +95,12 @@
     max-width: 90%;
   }
 
+  .sub-text {
+    font-size: 15px;
+  }
+
   .paragraph-below-image {
-    font-size: 25px;
+    font-size: 20px;
     max-width: 90%;
   }
   .reason-element-container {
